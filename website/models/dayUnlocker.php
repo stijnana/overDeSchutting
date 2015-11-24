@@ -9,9 +9,9 @@ function unlock()
 
     while ($days < $month) {
         if ($days <= $date) {
-            echo "<a href=\"?action=" . $days . "\">" . $days . "</a><br>";
+            echo "<a href=\"?action=" . $days . "\">" . $days . "</a> |";
         } else {
-            echo $days . "<br>";
+            echo $days . " | ";
         }
         $days = $days + 1;
     }
