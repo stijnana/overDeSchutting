@@ -1,3 +1,4 @@
+/* <-- HEADER --> */
 .logo {
     background-image: url("logo.png");
     position: absolute;
@@ -28,7 +29,6 @@
     z-index: 5;
 }
 
-
 .stage {
     background-image: url("stage.png");
     position: absolute;
@@ -39,25 +39,14 @@
     z-index: 4;
 }
 
-.footer {
-    background-image: url("footer.png");
+.tt100Image {
+    background-image: url("payoff.png");
     position: absolute;
-    left: 0px;
-    top: 2931px;
-    width: 1300px;
-    height: 45px;
-    z-index: 3;
-}
-
-#kalender {
-    color: rgb(40, 39, 39);
-    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.45);
-    top: 250px;
-    left: 250px;
-    z-index: 7;
-    position: absolute;
-
-
+    left: 329px;
+    top: 45px;
+    width: 257px;
+    height: 27px;
+    z-index: 696;
 }
 
 .fiets {
@@ -70,19 +59,271 @@
     z-index: 665;
 }
 
-.tt100 {
-    font-size: 41px;
-    font-family: "BubbledotICG";
-    color: rgb(51, 51, 51);
+/* <-- END HEADER --> */
+
+/* <-- FOOTER --> */
+.footer {
+    background-image: url("footer.png");
+    position: absolute;
+    left: 0px;
+    top: 2931px;
+    width: 1300px;
+    height: 45px;
+    z-index: 3;
+}
+
+/* <-- END FOOTER --> */
+
+/* <-- DAYCOUNT --> */
+#kalender {
+    color: rgb(40, 39, 39);
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.45);
+    top: 250px;
+    left: 250px;
+    z-index: 7;
+    position: absolute;
+    word-spacing: 17px;
+    width: 1400px;
+    font-size: 18px;
+
+}
+
+.maand {
+    font-family: "FranklinGothic";
+    color: rgb(40, 39, 39);
     text-transform: uppercase;
-    line-height: 0.732;
+    line-height: 0.818;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.45);
+    position: absolute;
+    left: 188px;
+    top: 253px;
+    z-index: 670;
+}
+
+.maand img {
+    width: 40px;
+    height: 15px;
+
+}
+
+#kalender a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* <-- END DAYCOUNT --> */
+
+/* <-- TOP FIVE SONGS --> */
+.topFiveWrapper {
+    top: 310px;
+    position: absolute;
+    z-index: 7;
+    left: 175px;
+}
+
+#topFive {
+    background-image: url("placeholder.jpg");
+    color: rgb(40, 39, 39);
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.45);
+    width: 650px;
+    display: block;
+    margin-top: 40px;
+}
+
+#topFiveImg {
+    width: 219px;
+    height: 148px;
+}
+
+#topFiveImg img {
+    width: 219px;
+    height: 148px;
+    z-index: 580;
+}
+
+#topFiveNumberImage img {
+    float: right;
+    margin-top: -148px;
+    margin-right: 372px;
+    width: 38px;
+    height: 33px;
+
+}
+
+#topFiveArtist {
+    float: right;
+    margin-top: -146px;
+    margin-right: 310px;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+#topFiveDesc {
+    width: 420px;
+    float: right;
+    margin-right: -10px;
+    margin-top: -110px;
+    font-size: 13px;
+}
+
+.topFiveTitle {
+    font-size: 18px;
+    font-family: "FranklinGothic";
+    color: rgb(228, 1, 1);
+    line-height: 0.9;
     text-align: left;
     position: absolute;
-    left: 329.208px;
-    top: 43.494px;
-    z-index: 694;
+    left: 172px;
+    top: 305px;
+    width: 318px;
+    height: 18px;
+    z-index: 590;
+    font-weight: bold;
+}
+
+#topFiveReadMore {
+    float: right;
+    margin-right: -10px;
+    margin-top: -23px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#topFiveReadMoreImg img {
+
+
+}
+
+#topFiveReadMore a {
+    text-decoration: none;
+}
+
+.dots {
+    background-image: url("dots.png");
+    position: absolute;
+    left: 164px;
+    top: 315px;
+    width: 687px;
+    height: 1px;
+    z-index: 589;
+}
+#topFiveSocialMedia {
+    margin-left: 240px;
+}
+
+/* <-- END TOP FIVE SONGS --> */
+
+/* <-- BANNERS --> */
+
+.bannertop100 {
+    background-image: url("bannertop100.png");
+    position: absolute;
+    left: 895px;
+    top: 328px;
+    width: 233px;
+    height: 230px;
+    z-index: 636;
+}
+
+.bannerprijsvraag {
+    background-image: url("bannerprijsvraag.png");
+    position: absolute;
+    left: 895px;
+    top: 598px;
+    width: 230px;
+    height: 115px;
+    z-index: 629;
 }
 
 
 
+.bannerVijf {
+    background-image: url("banner5.png");
+    left: 895px;
+    top: 1100px;
+    width: 230px;
+    height: 115px;
+    z-index: 629;
+    position: absolute;
+}
+
+.bannertestimonials {
+    background-image: url("titel copy 7.png");
+    position: absolute;
+    left: 895px;
+    top: 908px;
+    width: 230px;
+    height: 152px;
+    z-index: 613;
+}
+
+.banner3 {
+    background-image: url("banner3.png");
+    position: absolute;
+    left: 895px;
+    top: 753px;
+    width: 230px;
+    height: 115px;
+    z-index: 616;
+}
+
+/* <-- END BANNERS --> */
+
+/* <-- SUBNAV --> */
+.subnav {
+    z-index: 6;
+    left: 730px;
+    top: -20px;
+    position: absolute;
+    margin: 15px 0 20px;
+}
+
+.subnav ul {
+    float: right;
+}
+
+.subnav li:first-child {
+    border: none;
+}
+
+.subnav li {
+    display: inline;
+    border-left: 1px solid #bbb;
+    color: #bbb;
+    padding: 0 5px 0 8px;
+    font-size: 12px;
+}
+
+.actief {
+    background-image: url("actief.png");
+    position: absolute;
+    left: 451px;
+    top: 95px;
+    width: 133px;
+    height: 100px;
+    z-index: 674;
+}
+
+.bar {
+    background-image: url("nav.png");
+    position: absolute;
+    left: 327px;
+    top: 94px;
+    width: 416px;
+    height: 45px;
+    z-index: 673;
+}
+
+.radio1 {
+    position: absolute;
+    left: 347px;
+    top: 89px;
+    width: 416px;
+    height: 45px;
+    z-index: 673;
+    color: white;
+}
+
+/* <-- END SUBNAV --> */
 
