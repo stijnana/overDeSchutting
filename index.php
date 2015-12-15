@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
 $day = (empty($_GET['day'])) ? '' : $_GET['day'];
 $page = (empty($_GET['page'])) ? '' : $_GET['page'];
 $song = (empty($_GET['song'])) ? '' : $_GET['song'];
@@ -7,6 +8,12 @@ $song = (empty($_GET['song'])) ? '' : $_GET['song'];
 
 include '../../../../../schutting_config.php';
 include 'includes/database.php';
+=======
+include 'includes/config.php';
+include 'includes/database.php';
+include "views/header.html";
+include 'views/topFive.php';
+>>>>>>> origin/master
 include 'models/dayUnlocker.php';
 include "views/header.php";
 

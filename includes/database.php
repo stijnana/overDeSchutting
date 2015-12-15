@@ -8,4 +8,8 @@ if ($mysqli->connect_errno) {
     (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }
 
+<<<<<<< HEAD
 $mysqli->set_charset("utf8");
+=======
+
+>>>>>>> origin/master
