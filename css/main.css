@@ -1,3 +1,8 @@
+html {
+    font-family: sans-serif;
+}
+
+/* <-- HEADER --> */
 .logo {
     background-image: url("logo.png");
     position: absolute;
@@ -6,6 +11,7 @@
     width: 149px;
     height: 146px;
     z-index: 700;
+
 }
 
 .beeld {
@@ -13,7 +19,6 @@
     position: absolute;
     left: 0px;
     top: 10px;
-    width: 800px;
     height: 800px;
     z-index: 4;
 }
@@ -26,8 +31,8 @@
     width: 1028px;
     height: 44px;
     z-index: 5;
-}
 
+}
 
 .stage {
     background-image: url("stage.png");
@@ -39,25 +44,14 @@
     z-index: 4;
 }
 
-.footer {
-    background-image: url("footer.png");
+.tt100Image {
+    background-image: url("payoff.png");
     position: absolute;
-    left: 0px;
-    top: 2931px;
-    width: 1300px;
-    height: 45px;
-    z-index: 3;
-}
-
-#kalender {
-    color: rgb(40, 39, 39);
-    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.45);
-    top: 250px;
-    left: 250px;
-    z-index: 7;
-    position: absolute;
-
-
+    left: 329px;
+    top: 45px;
+    width: 257px;
+    height: 27px;
+    z-index: 696;
 }
 
 .fiets {
@@ -70,19 +64,1043 @@
     z-index: 665;
 }
 
-.tt100 {
-    font-size: 41px;
-    font-family: "BubbledotICG";
-    color: rgb(51, 51, 51);
-    text-transform: uppercase;
-    line-height: 0.732;
-    text-align: left;
+/* <-- END HEADER --> */
+
+/* <-- FOOTER --> */
+.footer {
     position: absolute;
-    left: 329.208px;
-    top: 43.494px;
-    z-index: 694;
+    bottom: -3100px;
+    width: 100%;
+    height: 20px;
+    margin: 0 auto;
+    z-index: 300
 }
 
+/* <-- END FOOTER --> */
 
+/* <-- DAYCOUNT --> */
+#wrapperKalender {
+    color: rgb(40, 39, 39);
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.45);
+    top: 250px;
+    left: 250px;
+    z-index: 7;
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    border-left: 1px;
+}
 
+#thisDay {
+    background-color: white;
+    border: red 3px solid;
+    padding-left: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: -4px;
+    margin-right: -4px;
+    position: relative;
+    z-index: 3;
+}
+
+#blackbg {
+    background-image: url("../images/geweest.png");
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    height: 50px;
+    background-size: 800px 30px;
+    background-repeat: no-repeat;
+}
+
+#daysToCome {
+    padding-right: 3.5px;
+    padding-left: 3.5px;
+    padding-top: 3px;
+}
+
+#daysPast {
+    padding-right: 5.5px;
+    padding-left: 6.5px;
+    padding-top: 3px;
+}
+
+#daysPast :hover {
+    border: red 3px solid;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    position: relative;
+    margin-left: -9px;
+    margin-right: -9px;
+
+    z-index: 3;
+
+}
+
+.maand {
+    font-family: "FranklinGothic";
+    color: rgb(40, 39, 39);
+    text-transform: uppercase;
+    line-height: 0.818;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.45);
+    position: absolute;
+    left: 188px;
+    top: 253px;
+    z-index: 670;
+
+}
+
+.maand img {
+    width: 40px;
+    height: 15px;
+
+}
+
+#wrapperKalender a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+/* <-- END DAYCOUNT --> */
+
+/* <-- TOP FIVE SONGS --> */
+#topFiveWrapper {
+    top: 310px;
+    position: absolute;
+    z-index: 7;
+    left: 175px;
+}
+
+#topFive {
+    background-image: url("placeholder.jpg");
+    color: rgb(40, 39, 39);
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.45);
+    width: 650px;
+    display: block;
+    margin-top: 40px;
+}
+
+#topFiveImg {
+    width: 219px;
+    height: 148px;
+}
+
+#topFiveImg img {
+    width: 219px;
+    height: 148px;
+    z-index: 580;
+}
+
+#topFiveNumberImage img {
+    float: right;
+    margin-top: -148px;
+    margin-right: 372px;
+    width: 38px;
+    height: 33px;
+
+}
+
+#topFiveArtist {
+    float: right;
+    margin-top: -142px;
+    margin-right: -35px;
+    font-size: 19px;
+    font-weight: bold;
+    width: 400px;
+    text-decoration: none;
+}
+
+#topFiveArtist a {
+    text-decoration: none;
+    color: black;
+}
+
+#topFiveDesc {
+    width: 420px;
+    float: right;
+    margin-right: -10px;
+    margin-top: -100px;
+    font-size: 13px;
+}
+
+.topFiveTitle {
+    font-size: 18px;
+    line-height: 0.9;
+    text-align: left;
+    position: absolute;
+    left: 0px;
+    top: -5px;
+    width: 330px;
+    height: 18px;
+    z-index: 590;
+    font-weight: bold;
+    color: red;
+}
+
+#topFiveReadMore {
+    float: right;
+    margin-right: -20px;
+    margin-top: -20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#commentCount {
+    color: #00A8EF;
+}
+
+#topFiveReadMoreImg img {
+
+}
+
+#topFiveReadMore a {
+    text-decoration: none;
+    color: #00a0d2;
+}
+
+.dots {
+    background-image: url("dots.png");
+    position: absolute;
+    left: 164px;
+    top: 315px;
+    width: 687px;
+    height: 1px;
+    z-index: 589;
+}
+
+#topFiveSocialMedia {
+    margin-left: 240px;
+}
+
+/* <-- END TOP FIVE SONGS --> */
+
+/* <-- BANNERS --> */
+
+.bannertop100 {
+    background-image: url("bannertop100.png");
+    position: absolute;
+    left: 895px;
+    top: 328px;
+    width: 233px;
+    height: 230px;
+    z-index: 636;
+}
+
+.bannerprijsvraag {
+    background-image: url("bannerprijsvraag.png");
+    position: absolute;
+    left: 895px;
+    top: 598px;
+    width: 230px;
+    height: 115px;
+    z-index: 629;
+}
+
+.bannerVijf {
+    background-image: url("banner5.png");
+    left: 895px;
+    top: 1100px;
+    width: 230px;
+    height: 115px;
+    z-index: 629;
+    position: absolute;
+}
+
+.bannertestimonials {
+    background-image: url("titel copy 7.png");
+    position: absolute;
+    left: 895px;
+    top: 908px;
+    width: 230px;
+    height: 152px;
+    z-index: 613;
+}
+
+.banner3 {
+    background-image: url("banner3.png");
+    position: absolute;
+    left: 895px;
+    top: 753px;
+    width: 230px;
+    height: 115px;
+    z-index: 616;
+}
+
+/* <-- END BANNERS --> */
+
+/* <-- DETAIL COMMENT --> */
+.topFiveTitleDetail {
+    font-size: 18px;
+    line-height: 0.9;
+    text-align: left;
+    position: absolute;
+    left: 170px;
+    top: 307px;
+    width: 330px;
+    height: 18px;
+    z-index: 590;
+    font-weight: bold;
+    color: red;
+}
+
+#commentFormWrapper {
+    margin-top: 20px;
+}
+
+.dotsComment {
+    background-image: url("dots.png");
+    position: absolute;
+    left: 164px;
+    top: 1015px;
+    width: 687px;
+    height: 1px;
+    z-index: 589;
+}
+
+.dotsCommentPosted {
+    background-image: url("dots.png");
+    position: absolute;
+    top: 415px;
+    width: 687px;
+    height: 1px;
+    z-index: 589;
+}
+
+.commentTitlePosted {
+    font-size: 18px;
+    color: rgb(228, 1, 1);
+    line-height: 0.9;
+    text-align: left;
+    position: absolute;
+    left: 6px;
+    top: 400px;
+    width: 330px;
+    height: 18px;
+    z-index: 590;
+    font-weight: bold;
+}
+
+#detailSongCommentWrapper {
+    text-align: left;
+    position: absolute;
+    left: 172px;
+    top: 1005px;
+    width: 330px;
+    height: 18px;
+    z-index: 590;
+
+}
+
+.commentTitle {
+    font-size: 18px;
+    color: rgb(228, 1, 1);
+    line-height: 0.9;
+    text-align: left;
+    position: absolute;
+    left: 172px;
+    top: 1005px;
+    width: 330px;
+    height: 18px;
+    z-index: 590;
+    font-weight: bold;
+}
+
+#comment {
+    padding: 7px;
+}
+
+#commentButton {
+    position: absolute;
+    left: 380px;
+    top: 370px;
+    width: 330px;
+    height: 18px;
+    z-index: 590;
+
+}
+
+#commentWrapper {
+    margin-top: 425px;
+
+}
+
+#commentBox {
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    width: 250px;
+}
+
+#detailSongComment {
+    font-size: 13px;
+    line-height: 0.9;
+    text-align: left;
+    position: absolute;
+    left: 170px;
+    top: 1040px;
+    width: 318px;
+    height: 18px;
+    z-index: 590;
+    font-weight: bold;
+}
+
+#commentName {
+    font-size: 13px;
+    text-align: left;
+    position: absolute;
+    margin-top: -10px;
+    width: 318px;
+    height: 18px;
+    z-index: 590;
+    font-weight: bold;
+}
+
+#commentStamp {
+    font-size: 13px;
+    text-align: left;
+    position: absolute;
+    margin-top: 5px;
+
+    width: 318px;
+    height: 18px;
+    z-index: 590;
+    font-weight: bold;
+    color: grey;
+    opacity: 0.7;
+}
+
+.commentMessage {
+    font-size: 13px;
+    text-align: left;
+    margin-top: -340px;
+    padding-top: 35px;
+    height: auto;
+    width: 680px;
+    z-index: 590;
+    font-weight: normal !important;
+
+}
+
+#warningText {
+    font-size: 13px;
+    text-align: left;
+    position: absolute;
+    left: 20px;
+    margin-top: 20px;
+    width: 318px;
+    height: 18px;
+    z-index: 590;
+
+}
+
+#warningText a {
+    text-decoration: none;
+    color: #00b9eb;
+}
+
+.dotsCommentSplitter {
+    font-size: 18px;
+    color: rgb(228, 1, 1);
+    line-height: 0.9;
+    text-align: left;
+    position: absolute;
+    margin-top: 40px;
+    width: 330px;
+    height: 18px;
+    z-index: 590;
+
+}
+
+/* <-- END DETAIL COMMENT --> */
+/* <-- DETAIL PAGE --> */
+#detailSocialMedia {
+    position: absolute;
+    left: 353px;
+    top: 625px;
+    z-index: 590;
+}
+
+#songVideo {
+    position: absolute;
+    margin-left: -260px;
+    top: 100px;
+    z-index: 590;
+
+}
+
+#detailSongDesc {
+    font-size: 15px;
+    text-align: left;
+    position: absolute;
+    top: 550px;
+    right: -102px;
+    width: 680px;
+    height: 18px;
+    z-index: 590;
+    font-weight: bold;
+}
+
+#detailSongImage img {
+    width: 45px;
+    height: 40px;
+    margin-right: 190px;
+}
+
+#detailSongTitle {
+    font-size: 18px;
+    line-height: 0.9;
+    position: absolute;
+    right: 110px;
+    top: 60px;
+    width: 300px;
+    height: 18px;
+    z-index: 590;
+}
+
+#detailSong {
+    font-size: 18px;
+    text-align: center;
+    line-height: 0.9;
+    position: absolute;
+    left: 430px;
+    top: 340px;
+    width: 318px;
+    height: 18px;
+    z-index: 590;
+    font-weight: bold;
+}
+
+#detailNext a {
+    text-decoration: none;
+    color: black;
+}
+
+#detailNext {
+    font-size: 18px;
+    color: rgb(228, 1, 1);
+    line-height: 0.9;
+    text-align: left;
+    position: absolute;
+    left: 169px;
+    top: 360px;
+    width: 118px;
+    height: 18px;
+    z-index: 590;
+}
+
+#songNextTitle {
+    font-size: 12px;
+    color: rgb(228, 1, 1);
+    line-height: 0.9;
+    position: absolute;
+    left: 33px;
+    top: 6px;
+    width: 118px;
+    height: 18px;
+    z-index: 590;
+    font-weight: bold;
+}
+
+#detailPrevious {
+    font-size: 18px;
+    color: rgb(228, 1, 1);
+    line-height: 0.9;
+    text-align: left;
+    position: absolute;
+    left: 722px;
+    top: 360px;
+    width: 118px;
+    height: 18px;
+    z-index: 590;
+}
+
+#detailPrevious a {
+    text-decoration: none;
+    color: black;
+}
+
+#songPreviousTitle {
+    font-size: 12px;
+    color: rgb(228, 1, 1);
+    line-height: 0.9;
+    position: absolute;
+    left: 33px;
+    top: 8px;
+    width: 118px;
+    height: 18px;
+    z-index: 590;
+    font-weight: bold;
+}
+
+/* <-- END DETAIL PAGE --> */
+
+/* <-- SUBNAV --> */
+.tt100link {
+    position: absolute;
+    left: 465px;
+    top: 92.5px;
+    width: 100px;
+    height: 45px;
+    z-index: 690;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.tt100link a {
+    text-decoration: none;
+    color: white;
+}
+
+.radio1 {
+    position: absolute;
+    left: 353px;
+    top: 92.5px;
+    width: 416px;
+    height: 45px;
+    z-index: 673;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.radio1 a {
+    color: white;
+    text-decoration: none;
+}
+
+#luister {
+    background-image: url("praten.png");
+    position: absolute;
+    left: 1031px;
+    top: 98px;
+    width: 131px;
+    height: 38px;
+    z-index: 686;
+}
+
+#search {
+    position: absolute;
+    left: 589px;
+    top: 97px;
+    width: 100px;
+    height: 25px;
+    z-index: 676;
+}
+
+.subnav {
+    z-index: 6;
+    left: 730px;
+    top: -20px;
+    position: absolute;
+    margin: 15px 0 20px;
+}
+
+.subnav ul {
+    float: right;
+}
+
+.subnav li:first-child {
+    border: none;
+}
+
+.subnav li {
+    display: inline;
+    border-left: 1px solid #bbb;
+    color: #bbb;
+    padding: 0 5px 0 8px;
+    font-size: 12px;
+}
+
+.actief {
+    background-image: url("actief.png");
+    position: absolute;
+    left: 451px;
+    top: 95px;
+    width: 133px;
+    height: 100px;
+    z-index: 674;
+}
+
+.bar {
+    background-image: url("nav.png");
+    position: absolute;
+    left: 327px;
+    top: 94px;
+    width: 416px;
+    height: 45px;
+    z-index: 673;
+}
+
+/* <-- END SUBNAV --> */
+
+/* <-- PRIJSVRAAG --> */
+
+#wrapperForm {
+    text-align: left;
+    position: absolute;
+    left: 172px;
+    top: 780px;
+    width: 330px;
+    height: 18px;
+    z-index: 590;
+    font-size: 13px;
+}
+
+.fotoPrijs {
+    position: absolute;
+    left: 172px;
+    top: 350px;
+    z-index: 590;
+}
+
+.fotoPrijs img {
+    width: 240px;
+    height: 150px;
+}
+
+.artistPrijsvraag {
+    position: absolute;
+    left: 390px;
+    top: 350px;
+    z-index: 590;
+}
+
+#artist {
+    position: absolute;
+    left: 50px;
+    top: 9px;
+    z-index: 590;
+    width: 200px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#numberArtist {
+    position: absolute;
+    z-index: 590;
+    width: 200px;
+    font-size: 19px;
+
+}
+
+#wrapperText {
+    position: absolute;
+    z-index: 590;
+    width: 200px;
+    font-size: 19px;
+    top: 0;
+    left: 45px;
+}
+
+#numberArtist img {
+    width: 45px;
+    height: 40px;
+}
+
+#textPrijs {
+    position: absolute;
+    z-index: 590;
+    width: 400px;
+    left: 390px;
+    top: 400px;
+    font-size: 12px;
+}
+
+#vraag {
+    position: absolute;
+    z-index: 590;
+    left: -80px;
+    font-size: 19px;
+    font-weight: bold;
+    color: red;
+}
+
+#heleVraag {
+    position: absolute;
+    z-index: 590;
+    left: 252px;
+    top: 660px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.dotsPrijsvraag {
+    position: absolute;
+    left: 164px;
+    top: 755px;
+    width: 687px;
+    height: 1px;
+    z-index: 589;
+}
+
+#prijsvraagForm {
+    padding: 7px;
+    font-weight: bold;
+}
+
+.verstuur {
+    position: absolute;
+    left: 420px;
+    z-index: 589;
+}
+
+.prijsvraagTitleReaction {
+    font-size: 18px;
+    color: red;
+    line-height: 0.9;
+    text-align: left;
+    position: absolute;
+    left: 170px;
+    top: 746px;
+    width: 330px;
+    height: 18px;
+    z-index: 590;
+    font-weight: bold;
+}
+
+.prijsvraagTitle {
+    font-size: 18px;
+    color: red;
+    line-height: 0.9;
+    text-align: left;
+    position: absolute;
+    left: 170px;
+    top: 307px;
+    width: 330px;
+    height: 18px;
+    z-index: 590;
+    font-weight: bold;
+}
+
+/* <-- END PRIJSVRAAG --> */
+
+/* <-- TOP 100 --> */
+
+#num1 {
+    background-color: red;
+    color: white;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 8px;
+    font-size: 22px;
+}
+
+#num2 {
+    background-color: grey;
+    color: white;
+    padding-top: 9px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-size: 22px;
+    position: absolute;
+
+}
+
+#num3 {
+    background-color: red;
+    color: white;
+    padding-top: 9px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-size: 22px;
+    position: absolute;
+    left: 254px;
+    top: -8px
+}
+
+#wrapperSongs {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 0.9;
+    text-align: left;
+    position: absolute;
+    left: 170px;
+    top: 380px;
+    z-index: 590;
+}
+
+#wrapperSongs a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    height: 2000px
+}
+
+.numbers {
+    background-color: #454545;
+    padding: 8px;
+    font-weight: bold;
+    width: 300px;
+    z-index: 2;
+    position: relative;
+
+}
+
+#numbersContainer {
+    margin-bottom: -15px;
+
+}
+
+.numberspassed {
+    background-color: #e40101;
+    padding: 8px;
+    width: 300px;
+    font-weight: bold;
+    z-index: 3;
+    position: relative;
+
+}
+
+.numberspassed a {
+    text-decoration: none;
+    z-index: 2;
+    position: relative;
+}
+
+#top100artist {
+    color: #00A8EF;
+    margin-left: 80px;
+    display: block;
+    font-weight: bold;
+
+}
+
+#dotsTop100 img {
+    margin-bottom: 30px;
+    margin-left: -70px;
+    z-index: 2;
+    position: relative;
+
+}
+
+#top100artist p {
+    margin-top: -16px;
+}
+
+#top100artistPassed {
+    color: grey;
+    margin-left: 80px;
+    display: block;
+    opacity: 0.7;
+    font-weight: bold;
+
+}
+
+#top100artistPassed p {
+    margin-top: -16px;
+}
+
+/* <-- END TOP 100 --> */
+
+/* <-- TEST --> */
+
+#wrapperTest {
+    top: 310px;
+    position: absolute;
+    z-index: 7;
+    left: 175px;
+}
+
+#test {
+    background-image: url("placeholder.jpg");
+    color: rgb(40, 39, 39);
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.45);
+    width: 650px;
+    display: block;
+    margin-top: 40px;
+
+}
+
+#testImg {
+    width: 219px;
+    height: 148px;
+}
+
+#testImg img {
+    width: 219px;
+    height: 148px;
+    z-index: 700;
+}
+
+#testName {
+    float: right;
+    margin-top: -142px;
+    font-size: 19px;
+    margin-right: 10px;
+    font-weight: bold;
+    width: 400px;
+    text-decoration: none;
+}
+
+#testName a {
+    text-decoration: none;
+}
+
+#testDesc {
+    width: 420px;
+    float: right;
+    margin-right: -10px;
+    margin-top: -110px;
+    font-size: 13px;
+}
+
+#testReadMore {
+    float: right;
+    margin-right: -10px;
+    margin-top: -20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#testReadMoreImg img {
+
+}
+
+#testReadMore a {
+    text-decoration: none;
+}
+
+#testSocialMedia {
+    margin-left: 240px;
+}
+
+/* <-- END TEST --> */
+
+/* <-- GENERAL --> */
+
+.vandaag {
+    font-size: 14px;
+    color: rgb(228, 1, 1);
+    line-height: 0.9;
+    text-align: left;
+    position: absolute;
+    left: 774px;
+    top: 307px;
+    width: 330px;
+    height: 18px;
+    z-index: 590;
+    font-weight: bold;
+}
+
+.vandaag a {
+    text-decoration: none;
+    color: #00A8EF;
+}
+
+#twitter {
+
+    position: absolute;
+    left: 895px;
+    top: 1250px;
+    width: 230px;
+    height: 152px;
+    z-index: 613;
+}
 

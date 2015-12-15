@@ -1,0 +1,39 @@
+.loginField{
+  border: solid 1px black;
+  margin:auto;
+  width: 50%;
+}
+
+.npologo{
+  width: 100%;
+  height: 100px;
+  background-image: url(../images/cmslogo.png);
+  background-size: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+label{
+
+    display: inline-block;
+    margin-left: 30%;
+    margin-right: 10px;
+    width: 100px;
+    text-align: right;
+}
+
+input{
+  display: inline-block;
+  margin-right: 10px;
+
+}
+
+.submit{
+  margin-left: 48%;
+  border: none;
+  background-color: rgb(173, 125, 2);
+  color: white;
+  padding: 0
+  font-size: 15px;
+}
